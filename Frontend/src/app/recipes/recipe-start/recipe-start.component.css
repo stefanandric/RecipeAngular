@@ -1,0 +1,12 @@
+div.image {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    width: auto;
+    background-image: url('../../images/food.jpg');
+    background-position: 100% 100%;
+}
+
+h5 {
+    align-content: center;
+}
