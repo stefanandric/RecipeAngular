@@ -36,7 +36,7 @@ export class RecipeService implements OnDestroy {
   }
 
   getRecipe(index: number) {
-      return this.recipes[index];
+    return this.recipes[index];
   }
 
   addIngrediantsToShoppingList(ingrediants: Ingredient[]) {

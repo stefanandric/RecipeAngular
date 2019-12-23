@@ -41,7 +41,7 @@ export class AuthService {
       .then(
         (token: string) => this.token = token
       );
-      return this.token;
+    return this.token;
   }
 
   isAuthenticated() {
