@@ -21,10 +21,7 @@ private recipe: Recipe[];
 private isDeleted: boolean;
 
 storeRecipes(recipe: Recipe[]) {
-  this.http.post(this.url + '/postRecipe', recipe, this.HttpOptions)
-  .subscribe((response: Response) =>
-      console.log(response)
-      );
+  this.http.post(this.url + '/postRecipe', recipe, this.HttpOptions);
 }
 
 getRecipes(): Observable<Recipe[]> {
